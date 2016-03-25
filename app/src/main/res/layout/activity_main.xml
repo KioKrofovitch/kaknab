@@ -11,30 +11,36 @@
     tools:context="com.kiodev.kaknab.MainActivity">
 
     <Button
-        android:layout_weight="1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/button_padding"
+        android:layout_marginRight="@dimen/button_padding"
+        android:layout_weight="1"
         android:onClick="onClickTulum"
         android:text="TULUM" />
 
     <Button
-        android:layout_weight="1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/button_padding"
+        android:layout_marginRight="@dimen/button_padding"
+        android:layout_weight="1"
         android:onClick="onClickAkumal"
         android:text="AKUMAL" />
 
     <Button
-        android:layout_weight="1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/button_padding"
+        android:layout_marginRight="@dimen/button_padding"
+        android:layout_weight="1"
         android:onClick="onClickXpuHa"
         android:text="XPU HA" />
 
     <Button
-        android:layout_weight="1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:onClick="onClickXelHa"
         android:text="XEL HA" />
 </LinearLayout>
