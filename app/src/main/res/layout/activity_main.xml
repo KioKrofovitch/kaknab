@@ -17,7 +17,8 @@
         android:layout_marginRight="@dimen/button_padding"
         android:layout_weight="1"
         android:onClick="onClickTulum"
-        android:text="TULUM" />
+        android:text="@string/tulum"
+        tools:ignore="ButtonStyle,Buttons in button bars should be borderless" />
 
     <Button
         android:layout_width="wrap_content"
@@ -26,7 +27,8 @@
         android:layout_marginRight="@dimen/button_padding"
         android:layout_weight="1"
         android:onClick="onClickAkumal"
-        android:text="AKUMAL" />
+        android:text="@string/akumal"
+        tools:ignore="ButtonStyle,Buttons in button bars should be borderless" />
 
     <Button
         android:layout_width="wrap_content"
@@ -35,12 +37,14 @@
         android:layout_marginRight="@dimen/button_padding"
         android:layout_weight="1"
         android:onClick="onClickXpuHa"
-        android:text="XPU HA" />
+        android:text="@string/xpu_ha"
+        tools:ignore="ButtonStyle,Buttons in button bars should be borderless" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:onClick="onClickXelHa"
-        android:text="XEL HA" />
+        android:text="@string/xel_ha"
+        tools:ignore="ButtonStyle,Buttons in button bars should be borderless" />
 </LinearLayout>

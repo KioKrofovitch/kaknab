@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Kaknab</string>
+
+    <string name="tulum">TULUM</string>
+    <string name="akumal">AKUMAL</string>
+    <string name="xpu_ha">XPU HA</string>
+    <string name="xel_ha">XEL HA</string>
 </resources>

@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -14,7 +14,7 @@
         <item name="android:textColor">@android:color/white</item>
         <item name="android:background">@drawable/kaknab_main_button</item>
         <item name="android:padding">10dp</item>
-        <item name="android:elevation">8dp</item>
+        <item name="android:elevation" tools:ignore="NewApi">2dp</item>
     </style>
 
 </resources>

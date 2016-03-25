@@ -2,6 +2,7 @@ package com.kiodev.kaknab;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -35,7 +36,9 @@ public class MainActivity extends AppCompatActivity {
     }
     private void launchMapView(Uri locUri){
         Intent mapIntent = new Intent(Intent.ACTION_VIEW, locUri);
-        mapIntent.setFlags(Intent.FLAG_ACTIVITY_LAUNCH_ADJACENT);
+        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            mapIntent.setFlags(Intent.FLAG_ACTIVITY_LAUNCH_ADJACENT);
+        }
         mapIntent.setPackage("com.google.android.apps.maps");
 
         // Attempt to start an activity that can handle the Intent
