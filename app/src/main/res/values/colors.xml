@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/tulum_ocean_turquoise</color>
+    <color name="colorPrimaryDark">@color/tulum_ocean_turquoise_dark</color>
+    <color name="colorAccent">@color/barbie_bright_pink</color>
+
+    <color name="tulum_ocean_turquoise">#00cca3</color>
+    <color name="tulum_ocean_turquoise_dark">#00997a</color>
+    <color name="barbie_bright_pink">#FF4081</color>
+
+</resources>
